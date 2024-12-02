@@ -4,14 +4,7 @@ export function TodoList(props){
     const { todos, selectedTab } = props
     const tab = selectedTab
 
-    // const todosWithIndex = todos.map((todo, todoIndex) =>{
-    //     input: todo.input
-    //     complete: todo.complete
-    //     index: todoIndex
-
-
-    // })
-    
+   
     const todosWithIndex = todos.map((todo, todoIndex) => ({
         input: todo.input,
         complete: todo.complete,
